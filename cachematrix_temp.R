@@ -46,3 +46,6 @@ cacheSolve <- function(x, ...) {
 Data = matrix(c(rnorm(4)), 2, 2) # Create a 2 by 2 matrix random numbers 
 Matrix <- makeCacheMatrix(x = Data) # Apply the first function to the test data
 Inverse <- cacheSolve(Matrix) # Apply the second function to the test data 
+
+
+B <- matrix(c(1,2,3,4),2,2)
